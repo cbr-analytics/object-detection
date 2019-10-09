@@ -33,7 +33,7 @@ Next the 2000 candidate regions in an image are warped into a square and fed int
 * The predicted four values are _offset values_. e.g. assume a given region proposal, the CNN extracted features when fed into SVM classifier predicts presence of a person but the face of that person within that region proposal could have been cut in half. Therefore, the offset values help in adjusting the bounding box of the region proposal.
 
 Components of R-CNN:
-![R-CNN steps]()
+![R-CNN steps](R-CNN_steps.jpg)
 * 2000 Bounding boxes i.e. region proposal from selective search.
 * CNN to extract features
 * SVM to classify presence or absence of feature.
